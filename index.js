@@ -60,9 +60,18 @@
 // console.log(a)
 // console.log("--a=",--a)
 // console.log(a)
-let comp1 = 6;
-let comp2 = "7";
-console.log("comp1==comp2 is ",comp1 == comp2)
-console.log("comp1!=comp2 is ",comp1!=comp2)
-console.log("comp1 === comp2",comp1===comp2)
-console.log("comp1!==comp1",comp1!==comp2)
+//comparison operator
+// let comp1 = 6;
+// let comp2 = "7";
+// console.log("comp1==comp2 is ",comp1 == comp2)
+// console.log("comp1!=comp2 is ",comp1!=comp2)
+// console.log("comp1 === comp2",comp1===comp2)
+// console.log("comp1!==comp1",comp1!==comp2)
+//
+
+//conditional statement
+let a = prompt("enter you age")
+a = Number.parseInt(a)
+if(a>0){
+    alert("this is a valid age")
+}
