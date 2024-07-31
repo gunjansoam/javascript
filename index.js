@@ -200,4 +200,40 @@
 // }
 // console.log("you guess the right number");
 
+// strings
+// let str = "Gunjan soam";
+// console.log(str[2]);
+
+
+// template literals
+// let obj ={
+//   item: "pen",
+//   price: 10,
+// };
+// let output = `the cost of ${obj.item} is ${obj.price} rupees`
+// console.log(output)
+// console.log("the cost of ",obj.item,"is",obj.price);
+// let sentence = `this is a template literal`;
+// console.log(sentence);
+// console.log(typeof(sentence))
+
+// strings methods in js
+// str.toUppercase()=>convert abc == ABC
+// let str = "Gunjan soam"
+//  newstr = str.toUpperCase()
+// console.log(str)
+// console.log(newstr)
+
+// str.tolowercase()=> convert ABC==abc
+// let str = "GUNJAN SOAM"
+// newstr = str.toLowerCase()
+// console.log(str)
+// console.log(newstr)
+
+//remove space
+// let str = "   gunjan soam   "
+// console.log(str.trim());
+
+
+// str.slice(start,end?)// returns parts of string
 
