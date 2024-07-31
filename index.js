@@ -136,10 +136,68 @@
 // console.log("loop has ended");
 
 //qs calculate sum of 1 to 5
-let sum = 0;
-for(i= 1; i<=5; i++){
-  sum = sum+i;
-  console.log(sum)
+// let sum = 0;
+// for(i= 1; i<=5; i++){
+//   sum = sum+i;
+//   console.log(sum)
   
-}
-console.log("sum=",sum)
+// }
+// console.log("sum=",sum)
+
+//while loop
+// let i = 1;
+// while(i<=5){
+//   console.log("Gunjan soam")
+//   i++
+// }
+
+
+// do while loop
+// let i = 20;
+// do{
+//   console.log("Gunjan soam");
+//   i++
+// }while(i<=10);
+
+
+//for-of loop =>(over strings and arrays )
+// let str = "Gunjan";
+// let size = 0;
+// for(let i of str){  // iterator => characters
+//   console.log("i",i)
+//   size++;
+// }
+// console.log("string size,",size)
+
+
+//for in loop<= return key values
+// let student = {
+//   name:"Gunjan soam",
+//   age: 20,
+//   cgpa : 9.0,
+//   isPass: true
+// };
+// for (let i in student){
+//   console.log("key=", i,"value=",student[i]);
+//   console.log(i,"=",student[i]);
+// }
+
+//wap print all even numbers 0 to 100.
+// for(let i = 1; i<=100; i++){
+//   if(i%2==0)
+//   console.log(i)
+// }
+
+
+// qs 2 
+// create a game where you start with  any random  game number . Ask the user to keep gussing the game number until the user enters the correct value
+// let gameNum = 9;
+// let userNum = prompt("guess the number:");
+
+// while(userNum != gameNum){
+//   userNum = prompt("you enter wrong number , guess again:");
+
+// }
+// console.log("you guess the right number");
+
+
