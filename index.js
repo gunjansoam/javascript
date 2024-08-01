@@ -236,4 +236,16 @@
 
 
 // str.slice(start,end?)// returns parts of string
+// let str = "0123456789";
+// let str2 = "developement"
+// console.log(str.slice(1,6))
+// console.log(str2.slice(1,3))
+
+// str1.concat(str2)// used to add to string
+// let str1 = "Gunjan ";
+// let str2 = "soam";
+// console.log(str1.concat(str2))
+
+//str.replace(searchVal,newVal)
+
 
