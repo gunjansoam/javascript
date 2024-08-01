@@ -246,6 +246,33 @@
 // let str2 = "soam";
 // console.log(str1.concat(str2))
 
-//str.replace(searchVal,newVal)
+//str.replace(searchVal,newVal)// used to search value
+// let str = "Gunjan soam";
+// console.log(str.replace("soam","rajput"))
+
+
+// str.charAt(idx)//find out char in at which index string
+//string are immutable
+// so make a new string and then change value
+
+// let str = "Gunjan soam"
+// console.log(str.charAt(5));//n
+
+//qs prompt user to enter their fullname.Generate a  username for them based on the input.start username with @,followed by their full name and ending with the full length.
+ 
+//eg. usename = "Gunjan soam",username should be "@Gunjansoam95"
+// let username = prompt("enter you username");
+// console.log(username)
+
+// let username1 = "@" + username + username.length;
+// console.log(username1);
+
+
+
+
+
+
+
+
 
 
