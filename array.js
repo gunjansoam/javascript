@@ -106,19 +106,93 @@
 
 // splice method -> change in original Array(add ,remove,replace)
 
-// QS
-let ar = [24,34,24,99,99,95,95,67];
-for(let i=0; i<ar.length;i++){
-    if(ar[i]==ar[i]){
-        
+// QS print repeated number
 
-    }
-    
+// let ar = [24,24,34,56,99,95,95,9955,9955];
+// for(i = 0; i<ar.length;i++){
+//     for(j= i+1; j<ar.length;j++){
+//         if(ar[i]==ar[j]){
+//             console.log(ar[i])
+//         }
+//     }
+// }
 
-}
+//functions and methods
+// function myfunction(){ // parameter
+//     console.log("Gunjan soam");
+//     console.log("A web developer");
+
+// }
+// myfunction();
 
 
+// function infunction(msg){
+//     console.log(msg);
+// }
+// infunction("learning javascript");
 
+//function sum two number
+// function sum(x,y) {
+//     s = x+y;
+//     return s;
+// }
+
+//  let val = sum(8,5);
+//  console.log(val);
+
+
+//  note : local var of function are block scope
+
+// sum function
+// function sum( a, b){
+//     return a +b;
+
+// }
+// arrow functions 
+// function mul(a,b){
+//     return a*b;
+
+// }
+// const arrowmul = (a,b)=> {
+//     return a*b;
+// }
+
+// Qs : creat  a function using the "function" keyword that takes a string as an argument and return the number of vowels in the string.
+
+// function countvowels(str){
+//     let count = 0;
+// for (const char of str){
+//     if(
+//         char==="a"||
+//         char==="e"||
+//         char ==="i"||
+//         char ==="o"||
+//         char==="u"
+//     ){
+//         count++;
+//     }
+// }
+// console.log(count);
+// }
+ 
+// const countvol = (str) => {
+//      let  vowel = "aeiouAEIOU";
+//      let count = 0;
+//      for(i = 0; i<str.length; i++){
+//         if(vowel.includes(str[i])){
+//             count++;
+//         }
+            
+//      }
+//      return count;
+     
+
+// }
+// console.log(countvol());
+
+let temperature = 25.5;
+console.log("Clesius-",25.5);
+console.log("Klevin-",25.5+273);
 
 
 
